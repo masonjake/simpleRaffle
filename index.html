@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
+		<script defer src="./app.js"></script>
+		<title>Raffle</title>
+	</head>
+	<body>
+		<h1>Raffle!</h1>
+		<p>Please enter the names of the participants.</p>
+		<div id="button-container">
+			<input id='input' type ='text'placeholder="Enter Name"></input>
+			<button onclick="addName()">Submit</button>
+		</div>
+			<button onclick="chooseWinner()">Choose Winner</button>
+			<p id="winner"></p>
+			<div id="list-container">
+			<ul id="name-list">Participants:
+			</ul>
+		</div>
+	</body>
+</html>

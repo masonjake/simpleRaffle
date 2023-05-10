@@ -1,0 +1,26 @@
+body {
+    background-color: gainsboro;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+ul {
+    font-weight: bold;
+    list-style-type:decimal;
+    padding: 0%;
+}
+
+#button-container {
+    margin-bottom: 10px;
+}
+#list-container {
+    left: 0%;
+    margin-left: 0%;
+}
+
+li{
+    font-weight: normal;
+    margin-left: 10px;
+}
